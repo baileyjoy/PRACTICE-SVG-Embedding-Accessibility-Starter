@@ -8,3 +8,7 @@ I inspected the inline SVG using Chrome Developer tool. The accessibility tree i
 
 ##AI Disclosure
 No AI was used 
+
+https://baileyjoy.github.io/PRACTICE-SVG-Embedding-Accessibility-Starter/
+
+https://github.com/baileyjoy/PRACTICE-SVG-Embedding-Accessibility-Starter
