@@ -11,7 +11,7 @@
             <h1>One SVG, Three Purposes</h1>
         </header>
         <main>
-            
+
     <section>
         <h2>1 · External content image</h2>
         <p>TODO: Embed <code>comparison.svg</code> as a meaningful image and provide the right text alternative.</p>
@@ -22,6 +22,44 @@
     <section>
         <h2>2 · Inline, styleable graphic</h2>
         <p>TODO: Copy the SVG markup here, name and describe it, and replace fixed fills with the supplied tokens.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 600 300"
+        role="img"
+        aria-labelledby="comparison-title comparison-desc">
+
+            <title id="comparison-title">Instructional comparison graphic</title>
+
+            <desc id="comparison-desc">
+                Two circles compare a smaller 14 percent value with a larger 29 percent value.
+            </desc>
+
+            <rect width="600" 
+            height="300" />
+
+            <circle class="primary-shape" 
+            cx="180" 
+            cy="140" 
+            r="70"/>
+
+            <circle class="accent-shape" 
+            cx="420" 
+            cy="120" 
+            r="110" />
+
+            <path d="M90 250H510" 
+            stroke="#747474" 
+            stroke-width="8"/>
+            <text x="180" y="275" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="24">14%</text>
+
+            <text x="420" y="275"
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="24">29%</text>
+        </svg>
+
     </section>
 
     <section class="decorative">
